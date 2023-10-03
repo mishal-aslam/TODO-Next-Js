@@ -1,10 +1,12 @@
-import Image from 'next/image'
+import React from 'react'
 import Todo from './components/Todo'
 
-
-export default function Page() {
+const page = () => {
   return (
-    <Todo />
+    <div>
+      <Todo />
+    </div>
   )
-
 }
+
+export default page
